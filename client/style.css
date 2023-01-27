@@ -111,7 +111,9 @@ body {
 .message::-webkit-scrollbar {
   display: none;
 }
-
+::-webkit-input-placeholder { /* Chrome */
+  color: rgba(0, 225, 255, 0.984);
+}
 form {
   width: 100%;
   max-width: 1280px;
